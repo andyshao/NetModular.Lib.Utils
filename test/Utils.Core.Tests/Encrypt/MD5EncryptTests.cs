@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using NetModular.Lib.Utils.Core.Encrypt;
+using Nmr.Lib.Utils.Core.Encrypt;
 using Xunit;
 
 namespace Utils.Core.Tests.Encrypt

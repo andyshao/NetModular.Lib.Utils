@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NetModular.Lib.Utils.Core.Attributes
+namespace Nmr.Lib.Utils.Core.Attributes
 {
     /// <summary>
     /// 忽略属性

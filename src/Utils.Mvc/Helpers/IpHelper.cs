@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
-using NetModular.Lib.Utils.Core.Attributes;
+using Nmr.Lib.Utils.Core.Attributes;
 
-namespace NetModular.Lib.Utils.Mvc.Helpers
+namespace Nmr.Lib.Utils.Mvc.Helpers
 {
     /// <summary>
     /// IP帮助类

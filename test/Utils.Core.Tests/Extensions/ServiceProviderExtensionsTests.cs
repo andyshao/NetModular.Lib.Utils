@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using NetModular.Lib.Utils.Core.Attributes;
+using Nmr.Lib.Utils.Core.Attributes;
 using Xunit;
 
 namespace Utils.Core.Tests.Extensions

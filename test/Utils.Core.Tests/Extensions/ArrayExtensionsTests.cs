@@ -1,4 +1,4 @@
-﻿using NetModular;
+﻿using Nmr;
 using Xunit;
 
 namespace Utils.Core.Tests.Extensions

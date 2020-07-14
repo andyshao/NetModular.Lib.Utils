@@ -1,7 +1,8 @@
 ﻿using System;
-using NetModular.Lib.Utils.Core.Attributes;
+using Nmr;
+using Nmr.Lib.Utils.Core.Attributes;
 
-namespace NetModular.Lib.Utils.Core.Helpers
+namespace Nmr.Lib.Utils.Core.Helpers
 {
     [Singleton]
     public class DateTimeHelper

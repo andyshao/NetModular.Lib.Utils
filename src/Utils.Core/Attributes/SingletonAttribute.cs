@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NetModular.Lib.Utils.Core.Attributes
+namespace Nmr.Lib.Utils.Core.Attributes
 {
     /// <summary>
     /// 单例注入(使用该特性的服务系统会自动注入)

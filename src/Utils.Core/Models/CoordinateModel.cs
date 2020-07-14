@@ -1,4 +1,4 @@
-﻿namespace NetModular.Lib.Utils.Core.Models
+﻿namespace Nmr.Lib.Utils.Core.Models
 {
     /// <summary>
     /// 坐标模型

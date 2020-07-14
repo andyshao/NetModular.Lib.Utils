@@ -1,6 +1,7 @@
 ﻿using System.Text;
+using Nmr;
 
-namespace NetModular.Lib.Utils.Core.Models
+namespace Nmr.Lib.Utils.Core.Models
 {
     /// <summary>
     /// 区域选择模型

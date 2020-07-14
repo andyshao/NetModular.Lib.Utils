@@ -1,4 +1,6 @@
-﻿namespace NetModular.Lib.Utils.Core.Files
+﻿using Nmr;
+
+namespace Nmr.Lib.Utils.Core.Files
 {
     /// <summary>
     /// 文件信息

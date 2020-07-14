@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
-using NetModular.Lib.Utils.Core;
+using Nmr.Lib.Utils.Core;
 
 namespace Utils.Core.Tests
 {

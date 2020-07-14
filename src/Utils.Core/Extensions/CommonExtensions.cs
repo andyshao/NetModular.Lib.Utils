@@ -2,7 +2,7 @@
 using System.Text;
 
 // ReSharper disable once CheckNamespace
-namespace NetModular
+namespace Nmr
 {
     /// <summary>
     /// 通用扩展方法

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NetModular.Lib.Utils.Core.Result
+namespace Nmr.Lib.Utils.Core.Result
 {
     /// <summary>
     /// 树形结构返回模型

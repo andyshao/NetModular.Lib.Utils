@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 
 // ReSharper disable once CheckNamespace
-namespace NetModular
+namespace Nmr
 {
     public static class StringExtensions
     {

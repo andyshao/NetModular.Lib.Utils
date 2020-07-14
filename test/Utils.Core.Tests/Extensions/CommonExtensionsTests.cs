@@ -1,6 +1,6 @@
 ﻿using System;
-using NetModular;
-using NetModular.Lib.Utils.Core.Enums;
+using Nmr;
+using Nmr.Lib.Utils.Core.Enums;
 using Xunit;
 
 namespace Utils.Core.Tests.Extensions

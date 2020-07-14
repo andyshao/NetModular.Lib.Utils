@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 // ReSharper disable once CheckNamespace
-namespace NetModular
+namespace Nmr
 {
     public static class EnumerableExtensions
     {

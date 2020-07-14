@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Runtime.Loader;
 using Microsoft.Extensions.DependencyModel;
 
-namespace NetModular.Lib.Utils.Core.Helpers
+namespace Nmr.Lib.Utils.Core.Helpers
 {
     /// <summary>
     /// 程序集操作帮助类

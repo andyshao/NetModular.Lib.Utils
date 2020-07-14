@@ -1,9 +1,10 @@
 ﻿using System;
 using System.IO;
 using Microsoft.Extensions.Configuration;
-using NetModular.Lib.Utils.Core.Attributes;
+using Nmr;
+using Nmr.Lib.Utils.Core.Attributes;
 
-namespace NetModular.Lib.Utils.Core.Helpers
+namespace Nmr.Lib.Utils.Core.Helpers
 {
     /// <summary>
     /// 配置帮助类

@@ -1,4 +1,4 @@
-﻿namespace NetModular.Lib.Utils.Core.Result
+﻿namespace Nmr.Lib.Utils.Core.Result
 {
     /// <summary>
     /// Excel导出结果模型

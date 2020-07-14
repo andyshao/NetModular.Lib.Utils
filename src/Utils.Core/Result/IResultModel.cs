@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace NetModular.Lib.Utils.Core.Result
+namespace Nmr.Lib.Utils.Core.Result
 {
     /// <summary>
     /// 返回结果模型接口

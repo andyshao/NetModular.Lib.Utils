@@ -1,9 +1,9 @@
 ﻿using System;
-using NetModular.Lib.Utils.Core.Enums;
-using NetModular.Lib.Utils.Core.Helpers;
+using Nmr.Lib.Utils.Core.Enums;
+using Nmr.Lib.Utils.Core.Helpers;
 
 // ReSharper disable once CheckNamespace
-namespace NetModular
+namespace Nmr
 {
     public static class DateTimeExtensions
     {

@@ -1,6 +1,6 @@
 ﻿using System.Web;
 
-namespace NetModular.Lib.Utils.Core.Result
+namespace Nmr.Lib.Utils.Core.Result
 {
     /// <summary>
     /// 文件下载

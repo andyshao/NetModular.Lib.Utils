@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace NetModular.Lib.Utils.Core.Validations
+namespace Nmr.Lib.Utils.Core.Validations
 {
     /// <summary>
     /// GUID不能为空

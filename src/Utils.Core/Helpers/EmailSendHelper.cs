@@ -3,9 +3,9 @@ using System.Net;
 using System.Net.Mail;
 using System.Net.Mime;
 using System.Text;
-using NetModular.Lib.Utils.Core.Attributes;
+using Nmr.Lib.Utils.Core.Attributes;
 
-namespace NetModular.Lib.Utils.Core.Helpers
+namespace Nmr.Lib.Utils.Core.Helpers
 {
     /// <summary>
     /// 右邮件帮助类

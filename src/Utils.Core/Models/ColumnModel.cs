@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel;
 using System.Reflection;
-using NetModular.Lib.Utils.Core.Attributes;
+using Nmr.Lib.Utils.Core.Attributes;
 
-namespace NetModular.Lib.Utils.Core.Models
+namespace Nmr.Lib.Utils.Core.Models
 {
     /// <summary>
     /// 列模型

@@ -1,13 +1,14 @@
 ﻿using System;
 using System.IO;
-using NetModular.Lib.Utils.Core.Attributes;
+using Nmr;
+using Nmr.Lib.Utils.Core.Attributes;
 using SixLabors.Fonts;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Drawing.Processing;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 
-namespace NetModular.Lib.Utils.Core.Helpers
+namespace Nmr.Lib.Utils.Core.Helpers
 {
     /// <summary>
     /// 验证码帮助类

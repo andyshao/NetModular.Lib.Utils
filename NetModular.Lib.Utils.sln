@@ -8,13 +8,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{1BB00419-457B-4BF6-8F2E-58D6A481AAD0}"
 	ProjectSection(SolutionItems) = preProject
 		src\Directory.Build.props = src\Directory.Build.props
+		README.MD = README.MD
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{56C38CBA-0CE6-4F37-9400-40E95F5615C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.Core", "src\Utils.Core\Utils.Core.csproj", "{B5885C74-47C6-46C3-B371-C58A07DADF79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils.Core", "src\Utils.Core\Utils.Core.csproj", "{B5885C74-47C6-46C3-B371-C58A07DADF79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.Mvc", "src\Utils.Mvc\Utils.Mvc.csproj", "{8CA55C26-3E3B-41C6-A71A-344FBB289A9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils.Mvc", "src\Utils.Mvc\Utils.Mvc.csproj", "{8CA55C26-3E3B-41C6-A71A-344FBB289A9C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils.Core.Tests", "test\Utils.Core.Tests\Utils.Core.Tests.csproj", "{942BF6F5-FF45-4DBF-AEFD-CA608A4D00AD}"
 EndProject

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NetModular.Lib.Utils.Core.Models
+namespace Nmr.Lib.Utils.Core.Models
 {
     /// <summary>
     /// 排序更新模型

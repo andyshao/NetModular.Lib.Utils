@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 
 // ReSharper disable once CheckNamespace
-namespace NetModular
+namespace Nmr
 {
     public static class EnumExtensions
     {

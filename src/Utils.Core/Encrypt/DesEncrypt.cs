@@ -2,9 +2,10 @@
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
-using NetModular.Lib.Utils.Core.Attributes;
+using Nmr;
+using Nmr.Lib.Utils.Core.Attributes;
 
-namespace NetModular.Lib.Utils.Core.Encrypt
+namespace Nmr.Lib.Utils.Core.Encrypt
 {
     /// <summary>
     /// Des加解密

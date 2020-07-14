@@ -2,10 +2,10 @@
 using System.Linq;
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
-using NetModular.Lib.Utils.Core.Attributes;
-using NetModular.Lib.Utils.Core.Helpers;
+using Nmr.Lib.Utils.Core.Attributes;
+using Nmr.Lib.Utils.Core.Helpers;
 
-namespace NetModular.Lib.Utils.Core
+namespace Nmr.Lib.Utils.Core
 {
     public static class ServiceCollectionExtensions
     {
