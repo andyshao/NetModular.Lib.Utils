@@ -1,0 +1,19 @@
+﻿<Project>
+	<PropertyGroup>
+		<Version>2.0.0</Version>
+		<Authors>Oldli</Authors>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+		<LangVersion>Latest</LangVersion>
+		<RootNamespacePrefix>NetModular.Lib</RootNamespacePrefix>
+		<AssemblyName>$(RootNamespacePrefix).$(MSBuildProjectName)</AssemblyName>
+		<RootNamespace>$(AssemblyName)</RootNamespace>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
+		<PackageOutputPath>$(SolutionDir)\_packages</PackageOutputPath>
+		<Company>南京臣文数字科技有限公司</Company>
+		<Copyright>Copyright：2020-2099</Copyright>
+		<PackageProjectUrl>https://www.17mkh.com/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/NetModular/NetModular.Utils</RepositoryUrl>
+	</PropertyGroup>
+</Project>
