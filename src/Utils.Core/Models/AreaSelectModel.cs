@@ -1,5 +1,4 @@
 ﻿using System.Text;
-using Nmr;
 
 namespace Nmr.Lib.Utils.Core.Models
 {

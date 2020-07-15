@@ -1,6 +1,4 @@
-﻿using Nmr;
-
-namespace Nmr.Lib.Utils.Core.Files
+﻿namespace Nmr.Lib.Utils.Core.Files
 {
     /// <summary>
     /// 文件大小

@@ -116,7 +116,7 @@ namespace Nmr.Lib.Utils.Core
         /// <returns></returns>
         public static IServiceCollection AddUtilsServices(this IServiceCollection services)
         {
-            var assemblies = AssemblyHelper.Load();
+            var assemblies = new AssemblyHelper().Load();
             foreach (var assembly in assemblies)
             {
                 services.AddServicesFromAssembly(assembly);

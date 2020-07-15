@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.Configuration;
-using Nmr;
 
 namespace Nmr.Lib.Utils.Core.Extensions
 {

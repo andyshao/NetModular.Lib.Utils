@@ -1,7 +1,6 @@
 ﻿using System.IO;
 using System.Security.Cryptography;
 using System.Text;
-using Nmr;
 using Nmr.Lib.Utils.Core.Attributes;
 
 namespace Nmr.Lib.Utils.Core.Encrypt

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using Microsoft.Extensions.Configuration;
-using Nmr;
 using Nmr.Lib.Utils.Core.Attributes;
 
 namespace Nmr.Lib.Utils.Core.Helpers

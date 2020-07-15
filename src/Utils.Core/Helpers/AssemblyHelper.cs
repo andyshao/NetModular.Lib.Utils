@@ -4,19 +4,21 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.Loader;
 using Microsoft.Extensions.DependencyModel;
+using Nmr.Lib.Utils.Core.Attributes;
 
 namespace Nmr.Lib.Utils.Core.Helpers
 {
     /// <summary>
     /// 程序集操作帮助类
     /// </summary>
-    public static class AssemblyHelper
+    [Singleton]
+    public class AssemblyHelper
     {
         /// <summary>
         /// 加载程序集
         /// </summary>
         /// <returns></returns>
-        public static List<Assembly> Load(Func<RuntimeLibrary, bool> predicate = null)
+        public List<Assembly> Load(Func<RuntimeLibrary, bool> predicate = null)
         {
             var list = DependencyContext.Default.RuntimeLibraries.ToList();
             if (predicate != null)
@@ -40,7 +42,7 @@ namespace Nmr.Lib.Utils.Core.Helpers
         /// </summary>
         /// <param name="endString"></param>
         /// <returns></returns>
-        public static Assembly LoadByNameEndString(string endString)
+        public Assembly LoadByNameEndString(string endString)
         {
             return Load(m => m.Name.EndsWith(endString)).FirstOrDefault();
         }
@@ -49,7 +51,7 @@ namespace Nmr.Lib.Utils.Core.Helpers
         /// 获取当前程序集的名称
         /// </summary>
         /// <returns></returns>
-        public static string GetCurrentAssemblyName()
+        public string GetCurrentAssemblyName()
         {
             return Assembly.GetCallingAssembly().GetName().Name;
         }
