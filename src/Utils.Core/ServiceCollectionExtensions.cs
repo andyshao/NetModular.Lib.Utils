@@ -119,7 +119,14 @@ namespace Nmr.Lib.Utils.Core
             var assemblies = new AssemblyHelper().Load();
             foreach (var assembly in assemblies)
             {
-                services.AddServicesFromAssembly(assembly);
+                try
+                {
+                    services.AddServicesFromAssembly(assembly);
+                }
+                catch
+                {
+                    //此处防止第三方库抛出一场导致系统无法启动，所以需要捕获异常来处理一下
+                }
             }
             return services;
         }

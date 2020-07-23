@@ -1,6 +1,6 @@
 ﻿<Project>
 	<PropertyGroup>
-		<Version>2.0.0-dev002</Version>
+		<Version>2.0.0-dev003</Version>
 		<Authors>Oldli</Authors>
 		<NoWarn>$(NoWarn);1591</NoWarn>
 		<LangVersion>Latest</LangVersion>
