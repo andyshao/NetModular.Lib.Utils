@@ -39,6 +39,28 @@ namespace Nmr
         }
 
         /// <summary>
+        /// 匹配字符串结尾，忽略大小写
+        /// </summary>
+        /// <param name="s"></param>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public static bool EndsWithIgnoreCase(this string s, string value)
+        {
+            return s.EndsWith(value, StringComparison.OrdinalIgnoreCase);
+        }
+
+        /// <summary>
+        /// 匹配字符串开头，忽略大小写
+        /// </summary>
+        /// <param name="s"></param>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public static bool StartsWithIgnoreCase(this string s, string value)
+        {
+            return s.StartsWith(value, StringComparison.OrdinalIgnoreCase);
+        }
+
+        /// <summary>
         /// 首字母转小写
         /// </summary>
         /// <param name="s"></param>
